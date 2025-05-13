@@ -12,6 +12,6 @@ const HeaderSocials = () => {
       <a href="https://www.instagram.com/matosky_jnr/" target="_blank"><FaInstagram /></a>
     </div>
   )
-}
+} 
 
 export default HeaderSocials
