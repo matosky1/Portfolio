@@ -96,38 +96,28 @@ header {
     font-size: 0.9rem;
    }
 
-   /* ======= MEDIA QUERIES (MEDIUM DEVICES) ========== */
-   @media screen and (max-width: 1024px) {
-        header{
-            height: auto;
-            padding-bottom: 2rem;
-        }
-
-        .me {
-            height: 26rem;
-        }
-   }
-
-    /* ======= MEDIA QUERIES (SMALL DEVICES) ========== */
-    @media screen and (max-width: 600px) {
-       header {
-        height: auto;
-        padding-bottom: 2rem;
-       }
-       .header_socials, .scroll_down {
-        display: none;
-       }
-       .me {
-        height: 22rem;
-      }
-
-      .me img{
-        transform: translateY(5px)
-      }
-/*     
-      .me img {
-        height: 140%;
-        transform: translateY(-12%);
-      } */
-      
+   @media screen and (max-width: 600px) {
+    header {
+      height: auto;
+      padding-bottom: 2rem;
     }
+  
+    .header_socials, .scroll_down {
+      display: none;
+    }
+  
+    .me {
+      height: 22rem;
+      background: none; /* 🔥 This is the key fix */
+      padding: 0;        /* Remove excess space that reveals gradient */
+    }
+  
+    .me img {
+      transform: translateY(0);
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 0; /* Optional: keep rectangular crop */
+    }
+  }
+  

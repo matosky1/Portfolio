@@ -34,43 +34,43 @@ const services = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>Frontend Development</h3>
+            <h3>WEB DEVELOPMENT</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>React.js SPAs</p>
+              <p>Custom responsive websites (mobile-first design)</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>State management (Context, Redux, Hooks)</p>
+              <p>Modern UI using React or HTML/CSS</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>API integration & animations</p>
+              <p>Landing pages, portfolios, and business sites</p>
             </li>
           </ul>
         </article>
-
+           {/* End of Web development */}
 
         <article className="service">
           <div className="service__head">
-            <h3>Frontend Development</h3>
+            <h3>Photography</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>React.js SPAs</p>
+              <p>Event & lifestyle shoots</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>State management (Context, Redux, Hooks)</p>
+              <p>Photo retouching/editing</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>API integration & animations</p>
+              <p>Personal brand shoots for social media or business</p>
             </li>
           </ul>
         </article>
